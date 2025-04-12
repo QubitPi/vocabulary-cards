@@ -22,6 +22,7 @@ greek:
 # unless forced by PHONY
 .PHONY: german
 german:
+	python3 german.py
 	$(REMOVE_AUXILIARY)
 	$(BUILDTEX_GERMAN)
 	$(BUILDTEX_GERMAN)
