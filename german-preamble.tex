@@ -1,0 +1,21 @@
+\renewcommand{\labelitemi}{\includegraphics[width=0.05\textwidth]{german-item-icon}}
+
+\definecolor{german-flag-red}{HTML}{DD0000}
+\definecolor{german-flag-yellow}{HTML}{FFCC00}
+\definecolor{german-flag-black}{HTML}{000000}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\tcbset{inflection/.style={
+    enhanced,
+    colback=german-flag-yellow!10!white,
+    colframe=german-flag-black,
+    colbacktitle=german-flag-red!50!white,
+    coltitle=black,
+    center title
+}}
+
+\tcbset{reference/.style={
+    enhanced,
+    halign=flush right,
+    colback=german-flag-red!50!white,
+    colframe=german-flag-black,
+}}

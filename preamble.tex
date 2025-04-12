@@ -2,15 +2,15 @@
 
 \usepackage{fontspec}
 \setmainfont[ExternalLocation=./fonts/]{USDeclaration.ttf}
-\setmonofont{Ubuntu}
 \newfontfamily\Greek[Path=./fonts/]{porson.ttf}
+\newfontfamily\German[Path=./fonts/]{BreitkopfFraktur.ttf}[Scale=1.5]
 
 \setlength\parindent{0pt}
 \usepackage[left=0.5cm, right=0.5cm]{geometry}
 \usepackage{setspace}
 
 \usepackage{graphicx}
-\renewcommand{\labelitemi}{\includegraphics[width=0.02\textwidth]{icon.png}}
+\usepackage{float}
 \usepackage{wallpaper}
 
 \usepackage{hyperref}
@@ -26,21 +26,3 @@
 \usepackage{array}
 \usepackage{colortbl}
 \tcbuselibrary{skins}
-
-\definecolor{loeb-green}{HTML}{11B872}
-\newcolumntype{Y}{>{\centering\arraybackslash}X}
-\tcbset{inflection/.style={
-    enhanced,
-    colback=yellow!10!white,
-    colframe=loeb-green!50!black,
-    colbacktitle=loeb-green!40!white,
-    coltitle=black,
-    center title
-}}
-
-\tcbset{reference/.style={
-    enhanced,
-    halign=flush right,
-    colback=loeb-green!40!white,
-    colframe=loeb-green!50!black,
-}}

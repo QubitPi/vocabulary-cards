@@ -4,18 +4,28 @@ REMOVE_AUXILIARY=make clean
 GREEK_PROJECT=ancient-greek
 BUILDTEX_GREEK=$(TEX_ENGINE) -shell-escape $(GREEK_PROJECT).tex
 
+GERMAN_PROJECT=german
+BUILDTEX_GERMAN=$(TEX_ENGINE) -shell-escape $(GERMAN_PROJECT).tex
+
 all:
-	$(REMOVE_AUXILIARY)
-	$(BUILDTEX_GREEK)
-	$(BUILDTEX_GREEK)
-	$(BUILDTEX_GREEK)
-	$(REMOVE_AUXILIARY)
+	make greek
+	make german
 
 greek:
 	$(REMOVE_AUXILIARY)
 	$(BUILDTEX_GREEK)
 	$(BUILDTEX_GREEK)
 	$(BUILDTEX_GREEK)
+	$(REMOVE_AUXILIARY)
+
+# this target cannot be named "german" which collides with the $GERMAN_PROJECT and therefore won't trigger compilation
+# unless forced by PHONY
+.PHONY: german
+german:
+	$(REMOVE_AUXILIARY)
+	$(BUILDTEX_GERMAN)
+	$(BUILDTEX_GERMAN)
+	$(BUILDTEX_GERMAN)
 	$(REMOVE_AUXILIARY)
 
 clean:
