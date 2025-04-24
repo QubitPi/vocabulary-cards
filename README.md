@@ -9,6 +9,13 @@ Vocabulary Cards
 - [Ancient Greek](./ancient-greek.pdf)
 - [German](./german.pdf)
 
+Design
+------
+
+- Ancient Greek is more like a research language. It's content customization should be pushed down to LaTeX syntax.
+- German, on the other hand, is more of a daily langauge. It's content customization can be data-driven with the focus
+  on fast generation.
+
 Development
 -----------
 
