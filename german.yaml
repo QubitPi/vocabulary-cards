@@ -7185,3 +7185,27 @@
       - [Genitive,   Gleichung, Gleichungen]
       - [Dative,     Gleichung, Gleichungen]
       - [Accusative, Gleichung, Gleichungen]
+  - term: die Erforschung
+    definition:
+      - the exploration
+    audio: https://upload.wikimedia.org/wikipedia/commons/4/45/De-Erforschung.ogg
+    declension:
+      - ["",         singular,    plural       ]
+      - [Nominative, Erforschung, Erforschungen]
+      - [Genitive,   Erforschung, Erforschungen]
+      - [Dative,     Erforschung, Erforschungen]
+      - [Accusative, Erforschung, Erforschungen]
+  - term: die Behandlung
+    definition: the treatment
+    audio: https://upload.wikimedia.org/wikipedia/commons/f/ff/De-Behandlung.ogg
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Behandlung, Behandlungen]
+      - [genitive,   Behandlung, Behandlungen]
+      - [dative,     Behandlung, Behandlungen]
+      - [accusative, Behandlung, Behandlungen]
+  - term: vorläufig
+    definition:
+      - (adj.) preliminary
+      - (adj.) temporary
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c7/De-vorläufig.ogg
