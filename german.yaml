@@ -4989,11 +4989,18 @@
 #      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/lassen.pdf
 #  - term: schwören
 #    definition: to swear
-#  - term: der Raum
-#    definition:
-#      - the room
-#      - the area
-#      - (Physics) the space
+  - term: der Raum
+    definition:
+      - the room
+      - the area
+      - (Physics) the space
+    audio: https://upload.wikimedia.org/wikipedia/commons/9/94/De-Raum2.ogg
+    declension:
+      - ["",         singular,        plural]
+      - [nominative, Raum,            Räume ]
+      - [genitive,   "Raumes, Raums", Räume ]
+      - [dative,     Raum,            Räumen]
+      - [accusative, Raum,            Räume ]
 #  - term: leben
 #    definition: to be alive
 #  - term: das Leben
@@ -6786,20 +6793,20 @@
 #      video: https://youtu.be/-5h4JgcuSc4
 #      conjugation: https://www.verbformen.com/conjugation/liefern.pdf
 #      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/liefern.pdf
-#  - term: der Begriff
-#    definition:
-#      - the term
-#      - the word
-#      - the idea
-#      - the conception
-#      - the perception
-#    audio: https://upload.wikimedia.org/wikipedia/commons/c/c2/De-Begriff.ogg
-#    declension:
-#      - ["",         singular,              plural   ]
-#      - [Nominative, Begriff,               Begriffe ]
-#      - [Genitive,   "Begriffes, Begriffs", Begriffe ]
-#      - [Dative,     Begriff,               Begriffen]
-#      - [Accusative, Begriff,               Begriffe ]
+  - term: der Begriff
+    definition:
+      - the term
+      - the word
+      - the idea
+      - the conception
+      - the perception
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/c2/De-Begriff.ogg
+    declension:
+      - ["",         singular,              plural   ]
+      - [Nominative, Begriff,               Begriffe ]
+      - [Genitive,   "Begriffes, Begriffs", Begriffe ]
+      - [Dative,     Begriff,               Begriffen]
+      - [Accusative, Begriff,               Begriffe ]
 #  - term: zuletzt
 #    definition: (adv.) finally
 #  - term: mithin
@@ -7140,19 +7147,30 @@
 #      video: https://youtu.be/zytqkxgSlJM
 #      conjugation: https://www.verbformen.com/conjugation/betrachten.pdf
 #      flashcards: https://www.verbformen.com/conjugation/worksheets-exercises/lernkarten/betrachten.pdf
-#  - term: der Abschnitt
-#    definition:
-#      - the section
-#      - the paragraph
-#      - the segment
-#    audio: https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Abschnitt.ogg
-#    declension-type:
-#    declension:
-#      - ["",         singular,                  plural     ]
-#      - [Nominative, Abschnitt,                 Abschnitte ]
-#      - [Genitive,   "Abschnittes, Abschnitts", Abschnitte ]
-#      - [Dative,     Abschnitt,                 Abschnitten]
-#      - [Accusative, Abschnitt,                 Abschnitte ]
+  - term: der Abschnitt
+    definition:
+      - the section
+      - the paragraph
+      - the segment
+    audio: https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Abschnitt.ogg
+    declension-type:
+    declension:
+      - ["",         singular,                  plural     ]
+      - [Nominative, Abschnitt,                 Abschnitte ]
+      - [Genitive,   "Abschnittes, Abschnitts", Abschnitte ]
+      - [Dative,     Abschnitt,                 Abschnitten]
+      - [Accusative, Abschnitt,                 Abschnitte ]
+  - term: die Erörterung
+    definition:
+      - the discussion
+      - the examination
+    audio: https://upload.wikimedia.org/wikipedia/commons/1/15/De-Erörterung.ogg
+    declension:
+      - ["",         singular,   plural      ]
+      - [nominative, Erörterung, Erörterungen]
+      - [genitive,   Erörterung, Erörterungen]
+      - [dative,     Erörterung, Erörterungen]
+      - [accusative, Erörterung, Erörterungen]
 
 
 
